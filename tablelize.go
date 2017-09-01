@@ -35,8 +35,9 @@ func Rows(data [][]string) {
       }
 
       // 1. Skip the header
-      // 2. Assume that they all are numeric
-      // 3. Stop as soon as you find one string
+      // 2. Assume that they all are numeric, because you want to:
+      // 3. Stop as soon as you find one non-numeric value and force align them
+      //    all to the left
       if i > 0 && aligns[j] == ALIGN_NUMBER {
         slak := reflect.TypeOf(val).String()
         switch slak {
