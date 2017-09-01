@@ -1,6 +1,6 @@
 # tablelize
 
-Formats an array of arrays of strings by with.
+Formats a table (array of arrays) of strings by width.
 
 ### Usage
 
@@ -30,3 +30,5 @@ func main() {
   tablelize.Rows(data)
 }
 ```
+
+Check 
