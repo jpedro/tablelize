@@ -1,6 +1,8 @@
 # tablelize
 
-Formats a table (array of arrays) of strings by width.
+Prints out the values of a table (array of arrays) of strings nicely align by
+width.
+
 
 ### Usage
 
