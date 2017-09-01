@@ -34,3 +34,4 @@
 // ```
 // 
 // Check https://github.com/jpedro/tablelize/tree/master/examples for examples.
+package tablelize
