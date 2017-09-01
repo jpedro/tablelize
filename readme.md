@@ -29,10 +29,10 @@ func main() {
 Output:
 ```
 % go run simple.go
-KEY     VALUE
-char    a
-medium  Some text with content
-long    And now for something very very loooong
+KEY                            VALUE
+A char                         a
+Some key                       With a loooooooooooonger value
+A long key with a small value  Hi!
 ```
 
 Check [the directory examples](https://github.com/jpedro/tablelize/tree/master/examples)
