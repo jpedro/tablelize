@@ -19,8 +19,8 @@ func main() {
 
   data = append(data, []string{"KEY", "VALUE"})
   data = append(data, []string{"char", "a"})
-  data = append(data, []string{"medium", "Some text with content"})
-  data = append(data, []string{"long", "And now for something very very loooong"})
+  data = append(data, []string{"medium", "Witha very very very loooong value"})
+  data = append(data, []string{"a long key with a small value", "Hi!"})
 
   tablelize.Rows(data)
 }
