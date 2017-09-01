@@ -33,4 +33,5 @@ func main() {
 }
 ```
 
-Check https://github.com/jpedro/tablelize/tree/master/examples for examples.
+Check [the directory examples](https://github.com/jpedro/tablelize/tree/master/examples)
+for more exammples.
