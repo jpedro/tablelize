@@ -1,5 +1,6 @@
 // Prints out the values of a table (array of arrays) of strings nicely align by
-// width.
+// width. It also tries to align all numeric values to the right when all are
+// numeric.
 // 
 // 
 // Usage
@@ -29,5 +30,6 @@
 //		tablelize.Rows(data)
 //	}
 // 
-// Check https://github.com/jpedro/tablelize/tree/master/examples for examples.
+// Check https://github.com/jpedro/tablelize/tree/master/examples for more
+// examples.
 package tablelize
