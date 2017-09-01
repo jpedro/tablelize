@@ -15,7 +15,6 @@ import (
 
 func main() {
   var data [][]string
-  var row []string
 
   data = append(data, []string{"KEY", "VALUE"})
   data = append(data, []string{"char", "a"})
