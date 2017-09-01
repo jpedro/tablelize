@@ -6,6 +6,7 @@ width.
 
 ### Usage
 
+Source:
 ```go
 package main
 
@@ -23,6 +24,15 @@ func main() {
 
   tablelize.Rows(data)
 }
+```
+
+Output:
+```
+% go run simple.go
+KEY     VALUE
+char    a
+medium  Some text with content
+long    And now for something very very loooong
 ```
 
 Check [the directory examples](https://github.com/jpedro/tablelize/tree/master/examples)
