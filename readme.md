@@ -35,5 +35,5 @@ Some key                       With a loooooooooooonger value
 A long key with a small value  Hi!
 ```
 
-Check [the directory examples](https://github.com/jpedro/tablelize/tree/master/examples)
-for more exammples.
+Check [examples](https://github.com/jpedro/tablelize/tree/master/examples) for
+more.
