@@ -35,4 +35,4 @@ longer-key-name   Some text                                        -2   2
 key               And now for something completely different        3   3a
 ```
 
-Check [examples](https://github.com/jpedro/tablelize/tree/master/examples).
+Check [examples](https://github.com/jpedro/tablelize/tree/master/example).
