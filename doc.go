@@ -31,6 +31,5 @@
 //   key               And now for something completely different        3   3a
 
 
-// Check https://github.com/jpedro/tablelize/tree/master/examples for more
-// examples.
+// Check https://github.com/jpedro/tablelize/tree/master/examples.
 package tablelize
