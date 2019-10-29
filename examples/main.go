@@ -13,4 +13,8 @@ func main() {
   data = append(data, []string{"key", "And now for something completely different", "3", "3a"})
 
   tablelize.Rows(data)
+
+  // ok := [][]interface{}
+  // ok = append(ok, []interface{"Ok", 2})
+  // fmt.Printf("Len: %d\n", len(ok[0]))
 }
