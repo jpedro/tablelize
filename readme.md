@@ -31,9 +31,8 @@ Output:
 % go run examples/main.go
 KEY               VALUE                                        NUMBER   ALMOST_NUMBER
 char              a                                                 1   1
-longer-key-name   Some text                                         2   2
+longer-key-name   Some text                                        -2   2
 key               And now for something completely different        3   3a
 ```
 
-Check [examples](https://github.com/jpedro/tablelize/tree/master/examples) for
-more.
+Check [examples](https://github.com/jpedro/tablelize/tree/master/examples).
