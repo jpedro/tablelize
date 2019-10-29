@@ -65,7 +65,7 @@ func Rows(data [][]string) {
     if aligns[i] == ALIGN_NUMBER {
       align = ""
     }
-    format = fmt.Sprintf("%s%%%s%ds  ", format, align, widths[i])
+    format = fmt.Sprintf("%s%%%s%ds   ", format, align, widths[i])
   }
 
   format = strings.Trim(format, " ")
