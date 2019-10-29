@@ -17,10 +17,10 @@ import (
 func main() {
   var data [][]string
 
-  data = append(data, []string{"KEY", "VALUE"})
-  data = append(data, []string{"A char", "a"})
-  data = append(data, []string{"Some key", "With a loooooooooooonger value"})
-  data = append(data, []string{"A long key with a small value", "Hi!"})
+  data = append(data, []string{"KEY", "VALUE", "NUMBER", "ALMOST_NUMBER"})
+  data = append(data, []string{"char", "a", "1", "1"})
+  data = append(data, []string{"longer-key-name", "Some text", "2", "2"})
+  data = append(data, []string{"key", "And now for something completely different", "3", "3a"})
 
   tablelize.Rows(data)
 }
@@ -28,11 +28,11 @@ func main() {
 
 Output:
 ```
-% go run simple.go
-KEY                            VALUE
-A char                         a
-Some key                       With a loooooooooooonger value
-A long key with a small value  Hi!
+% go run examples/main.go
+KEY               VALUE                                        NUMBER   ALMOST_NUMBER
+char              a                                                 1   1
+longer-key-name   Some text                                         2   2
+key               And now for something completely different        3   3a
 ```
 
 Check [examples](https://github.com/jpedro/tablelize/tree/master/examples) for
